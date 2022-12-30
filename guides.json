@@ -2,7 +2,7 @@
     {"name": "Algoritmos"           , "repo": "creativos-digitales/2doGrado-Creativos"
     , "exercises":
         [
-            {"id":"1",      "name":"Ayudemos a Tito"
+            {"id":"unidades/Clase 1.2 - 1 -",      "name":"Ayudemos a Tito"
             ,"path": "unidades/Clase 1.2 - 1 - Ayudemos a Tito"
             }
             ,
