@@ -1,0 +1,79 @@
+[
+    {"name": "Algoritmos"           , "repo": "creativos-digitales/2doGrado-Creativos"
+    , "exercises":
+        [
+            {"id":"1",      "name":"Ayudemos a Tito"
+            ,"path": "unidades/Clase 1.2 - 1 - Ayudemos a Tito"
+            }
+            ,
+            {"id":"2",      "name":"Tito y su mascota"
+            ,"path": "unidades/Clase 1.2 - 2 - Tito y su mascota"
+            }
+            ,
+            {"id":"3",      "name":"Atrapando Rocas"
+            ,"path": "unidades/Clase 1.2 - 3 - Atrapando Rocas"
+            }
+            ,
+            {"id":"4",      "name":"Tito tiene hambre"
+            ,"path": "unidades/Clase 1.2 - 4 - Tito tiene hambre"
+            }
+        ]
+    },{"name": "Bucles"           , "repo": "creativos-digitales/2doGrado-Creativos"
+    , "exercises":
+        [
+            {"id":"5",      "name":"Buscando la salida"
+            ,"path": "unidades/Clase 1.4 - 1 - Buscando la salida"
+            }
+            ,
+            {"id":"6",      "name":"Atrapando Lombrices"
+            ,"path": "unidades/Clase 1.4 - 2 - Atrapando Lombrices"
+            }
+            ,
+            {"id":"7",      "name":"Rami necesita musica"
+            ,"path": "unidades/Clase 1.4 - 3 - Rami Necesita Musica"
+            }
+            ,
+            {"id":"8",      "name":"Rami tiene sed"
+            ,"path": "unidades/Clase 1.4 - 4 - Rami Tiene Sed"
+            }
+        ]
+    },{"name": "Patrones"           , "repo": "creativos-digitales/2doGrado-Creativos"
+    , "exercises":
+        [
+            {"id":"9",      "name":"Fido y sus anteojos"
+            ,"path": "unidades/Clase 2.2 - 1 - Fido y sus anteojos"
+            }
+            ,
+            {"id":"10",      "name":"Fido y su gorra"
+            ,"path": "unidades/Clase 2.2 - 2 - Fido y su gorra"
+            }
+            ,
+            {"id":"11",      "name":"Fido y su hijo"
+            ,"path": "unidades/Clase 2.2 - 3 - Fido y su hijo"
+            }
+            ,
+            {"id":"12",      "name":"Fido tiene hambre"
+            ,"path": "unidades/Clase 2.2 - 4 - Fido tiene hambre"
+            }
+        ]
+    },{"name": "Buclces anidados"           , "repo": "creativos-digitales/2doGrado-Creativos"
+    , "exercises":
+        [
+            {"id":"13",      "name":"Teo tiene hambre"
+            ,"path": "unidades/Clase 2.4 - 1 - Teo tiene hambre"
+            }
+            ,
+            {"id":"14",      "name":"Teo esta aburrido"
+            ,"path": "unidades/Clase 2.4 - 2 - Teo esta aburrido"
+            }
+            ,
+            {"id":"15",      "name":"Teo necesita iluminarse"
+            ,"path": "unidades/Clase 2.4 - 3 - Teo necesita iluminarse"
+            }
+            ,
+            {"id":"16",      "name":"Teo tiene sed"
+            ,"path": "unidades/Clase 2.4 - 4 - Teo tiene sed"
+            }
+        ]
+    }
+]

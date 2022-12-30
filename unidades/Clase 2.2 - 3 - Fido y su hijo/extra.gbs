@@ -1,0 +1,55 @@
+procedure MoverDerecha(){
+    Sacar(Rojo)
+    Mover(Este)
+    Poner(Rojo)
+    if(hayBolitas(Verde)){
+        Sacar(Rojo)
+        { BOOM("Has sido comido por el tiburón") }
+    }elseif(hayBolitas(Azul)){
+        Sacar(Rojo)
+        Sacar(Azul)
+        Poner(Negro)
+    }
+}
+
+procedure MoverIzquierda(){
+    Sacar(Rojo)
+    Mover(Oeste)
+    Poner(Rojo)
+    if(hayBolitas(Verde)){
+        Sacar(Rojo)
+        { BOOM("Has sido comido por el tiburón") }
+    }elseif(hayBolitas(Azul)){
+        Sacar(Rojo)
+        Sacar(Azul)
+        Poner(Negro)
+    }
+}
+
+procedure MoverArriba(){
+    Sacar(Rojo)
+    Mover(Norte)
+    Poner(Rojo)
+    if(hayBolitas(Verde)){
+        Sacar(Rojo)
+        { BOOM("Has sido comido por el tiburón") }
+    }elseif(hayBolitas(Azul)){
+        Sacar(Rojo)
+        Sacar(Azul)
+        Poner(Negro)
+    }
+}
+
+procedure MoverAbajo(){
+    Sacar(Rojo)
+    Mover(Sur)
+    Poner(Rojo)
+    if(hayBolitas(Verde)){
+        Sacar(Rojo)
+        { BOOM("Has sido comido por el tiburón") }
+    }elseif(hayBolitas(Azul)){
+        Sacar(Rojo)
+        Sacar(Azul)
+        Poner(Negro)
+    }
+}

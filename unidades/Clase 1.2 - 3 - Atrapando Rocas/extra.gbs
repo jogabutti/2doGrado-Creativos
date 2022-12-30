@@ -1,0 +1,35 @@
+procedure MoverDerecha(){
+    Sacar(Rojo)
+    Mover(Este)
+    Poner(Rojo)
+    if(hayBolitas(Verde)){
+        Sacar(Verde)
+    }
+}
+
+procedure MoverIzquierda(){
+    Sacar(Rojo)
+    Mover(Oeste)
+    Poner(Rojo)
+    if(hayBolitas(Verde)){
+        Sacar(Verde)
+    }
+}
+
+procedure MoverArriba(){
+    Sacar(Rojo)
+    Mover(Norte)
+    Poner(Rojo)
+    if(hayBolitas(Verde)){
+        Sacar(Verde)
+    }
+}
+
+procedure MoverAbajo(){
+    Sacar(Rojo)
+    Mover(Sur)
+    Poner(Rojo)
+    if(hayBolitas(Verde)){
+        Sacar(Verde)
+    }
+}

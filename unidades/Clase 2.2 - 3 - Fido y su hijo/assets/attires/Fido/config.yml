@@ -1,0 +1,37 @@
+name: Fido
+rules:
+  - when:
+      red: 1
+      green: 0
+      blue: 0
+      black: 0
+    image: fido.png
+    text: null
+  - when:
+      red: 0
+      green: 1
+      blue: 0
+      black: 0
+    image: tiburon.png
+    text: null
+  - when:
+      red: 0
+      green: 0
+      blue: 1
+      black: 0
+    image: hijo de fido.png
+    text: null
+  - when:
+      red: 0
+      green: 0
+      blue: 0
+      black: 1
+    image: fido y su hijo.png
+    text: null
+  - when:
+      red: '*'
+      green: '*'
+      blue: '*'
+      black: '*'
+    image: fondo1 (1).png
+    text: null

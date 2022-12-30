@@ -1,0 +1,63 @@
+procedure MoverDerecha(){
+    Sacar(Rojo)
+    Mover(Este)
+    Poner(Rojo)
+    if(hayBolitas(Azul)){
+        Sacar(Rojo)
+        { BOOM("Has chocado con una mina") }
+    }elseif(hayBolitas(Negro)){
+        Sacar(Rojo)
+        { BOOM("Has chocado con un anzuelo y te han pescado") }
+    }elseif(hayBolitas(Verde)){
+        Sacar(Rojo)
+        Poner(Verde)
+    }
+}
+
+procedure MoverIzquierda(){
+    Sacar(Rojo)
+    Mover(Oeste)
+    Poner(Rojo)
+    if(hayBolitas(Azul)){
+        Sacar(Rojo)
+        { BOOM("Has chocado con una mina") }
+    }elseif(hayBolitas(Negro)){
+        Sacar(Rojo)
+        { BOOM("Has chocado con un anzuelo y te han pescado") }
+    }elseif(hayBolitas(Verde)){
+        Sacar(Rojo)
+        Poner(Verde)
+    }
+}
+
+procedure MoverArriba(){
+    Sacar(Rojo)
+    Mover(Norte)
+    Poner(Rojo)
+    if(hayBolitas(Azul)){
+        Sacar(Rojo)
+        { BOOM("Has chocado con una mina") }
+    }elseif(hayBolitas(Negro)){
+        Sacar(Rojo)
+        { BOOM("Has chocado con un anzuelo y te han pescado") }
+    }elseif(hayBolitas(Verde)){
+        Sacar(Rojo)
+        Poner(Verde)
+    }
+}
+
+procedure MoverAbajo(){
+    Sacar(Rojo)
+    Mover(Sur)
+    Poner(Rojo)
+    if(hayBolitas(Azul)){
+        Sacar(Rojo)
+        { BOOM("Has chocado con una mina") }
+    }elseif(hayBolitas(Negro)){
+        Sacar(Rojo)
+        { BOOM("Has chocado con un anzuelo y te han pescado") }
+    }elseif(hayBolitas(Verde)){
+        Sacar(Rojo)
+        Poner(Verde)
+    }
+}
